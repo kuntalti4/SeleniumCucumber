@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: cucumber.Options.TestNgRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.741 s <<< FAILURE! - in cucumber.Options.TestNgRunner
+cucumber.Options.TestNgRunner.runScenario["Serach experince for home and offer", "Search and place the order for products"](1)  Time elapsed: 0.083 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'User is on GreenCart landing page' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on GreenCart landing page")
+public void user_is_on_green_cart_landing_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User serach for short name {string} and extract actual name of the product")
+public void user_serach_for_short_name_and_extract_actual_name_of_the_product(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User searched for the same short name in offerpage and check if product exist")
+public void user_searched_for_the_same_short_name_in_offerpage_and_check_if_product_exist() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
